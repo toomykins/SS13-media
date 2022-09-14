@@ -15,6 +15,8 @@ class Config
     // Relative path to pool of MP3s
     const POOL_PATH = '/files';
 
+    const EXT = "mp3";
+    const MIME_TYPE = "audio/mpeg";
     // The root path of index.php, minus /index.php.
     // For instance, if you had to get to it by the URL https://sub.domain.tld/index.php:
     const ROOT_URL = "http://sub.domain.tld";
